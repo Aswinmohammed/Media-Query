@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <nav id="side-nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        
+    </nav>
+    <header>
+        <nav id="primary-nav">
+            <a href="">Home</a> 
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+        </nav>
+        <button id="side-nav-button" onclick="OpenSideNav()">Open Menu</button>
+    </header>    
+        <aside>
+            <ul>
+                <li><a href="">Blog-01</a></li>
+                <li><a href="">Blog-02</a></li>
+                <li><a href="">Blog-03</a></li>
+                <li><a href="">Blog-04</a></li>
+                <li><a href="">Blog-05</a></li>
+                <li><a href="">Blog-07</a></li>
+            </ul>
+            <button  id="closebutton"   onclick="closeNavBar()">Close</button>    
+        </aside>
+    <main>
+        <article>
+            <h1>Blog-01</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque cum veniam, consequuntur odio, repudiandae, culpa perspiciatis impedit atque tempora earum aspernatur debitis eius reiciendis! Libero velit sunt laborum assumenda quidem omnis nihil nesciunt modi quod aliquid culpa repudiandae nobis ipsam eaque explicabo ab, ut placeat asperiores ea necessitatibus aut?, ipsum dolor sit amet consectetur adipisicing elit. Error qui numquam aperiam culpa in dignissimos illum asperiores, nemo est necessitatibus tempore consequuntur, reprehenderit ea aspernatur consequatur quam reiciendis vero. Provident.</p>
+        </article>
+        <article>
+            <h1>Blog-02</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque cum veniam, consequuntur odio, repudiandae, culpa perspiciatis impedit atque tempora earum aspernatur debitis eius reiciendis! Libero velit sunt laborum assumenda quidem omnis nihil nesciunt modi quod aliquid culpa repudiandae nobis ipsam eaque explicabo ab, ut placeat asperiores ea necessitatibus aut?, ipsum dolor sit amet consectetur adipisicing elit. Error qui numquam aperiam culpa in dignissimos illum asperiores, nemo est necessitatibus tempore consequuntur, reprehenderit ea aspernatur consequatur quam reiciendis vero. Provident.</p>
+        </article>
+        <article>
+            <h1>Blog-03</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque cum veniam, consequuntur odio, repudiandae, culpa perspiciatis impedit atque tempora earum aspernatur debitis eius reiciendis! Libero velit sunt laborum assumenda quidem omnis nihil nesciunt modi quod aliquid culpa repudiandae nobis ipsam eaque explicabo ab, ut placeat asperiores ea necessitatibus aut?, ipsum dolor sit amet consectetur adipisicing elit. Error qui numquam aperiam culpa in dignissimos illum asperiores, nemo est necessitatibus tempore consequuntur, reprehenderit ea aspernatur consequatur quam reiciendis vero. Provident.</p>
+        </article>
+        <article>
+            <h1>Blog-04</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque cum veniam, consequuntur odio, repudiandae, culpa perspiciatis impedit atque tempora earum aspernatur debitis eius reiciendis! Libero velit sunt laborum assumenda quidem omnis nihil nesciunt modi quod aliquid culpa repudiandae nobis ipsam eaque explicabo ab, ut placeat asperiores ea necessitatibus aut?, ipsum dolor sit amet consectetur adipisicing elit. Error qui numquam aperiam culpa in dignissimos illum asperiores, nemo est necessitatibus tempore consequuntur, reprehenderit ea aspernatur consequatur quam reiciendis vero. Provident.</p>
+        </article>
+    </main>
+    <footer>&copy 2024  Mohammed Aswin. All rights reserved</footer>
+
+    <script>
+        function OpenSideNav() {
+            document.getElementById("side-nav").style.display = "block"
+        }
+
+        function closeNavBar() {
+            document.getElementById("side-nav").style.display = "none"
+        }
+    </script>
+</body>
+</html>
